@@ -1,4 +1,4 @@
-*8🤖 AI Resume Matcher – 2025 Edition*8
+**🤖 AI Resume Matcher – 2025 Edition**
 Capstone Project | Stevens Institute of Technology
 Team: Anugya Sharma, Maruthi Kunchala, Jash Shah, Yash Kalpesh Shah
 Duration: Jan 2025 – May 2025
@@ -43,6 +43,27 @@ Languages & Frameworks: Python, Streamlit, Flask
 - Templating & Output: Jinja2, HTML
 
 📦 Installation
+- Clone the repository:
+  git clone https://github.com/Jash-stack/AI-Resume-Matcher-2025-Edition
+  cd ai-resume-matcher
 
+- Create a virtual environment and install dependencies:
+  pip install -r requirements.txt
 
+- Run the Streamlit app:
+  streamlit run main_app.py
+
+📈 Results
+- Skill extraction achieved 88% precision
+- Job relevance alignment was 76% compared to human reviewers
+- Chatbot provided fast, context-aware responses across multiple use cases
+
+🚧 Challenges & Future Work
+- Improve handling of stylized/resume-formatted skills (e.g., ReactJS, Next.js)
+- Incorporate feedback learning to improve ranking accuracy
+- Enhance UI for better interactivity and accessibility
+
+📬 Contact
+For questions or collaboration:
+📧 jshah67@stevens.edu
 
