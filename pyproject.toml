@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ai-resume-matcher"
+version = "1.0.0"
+description = "AI-powered resume-to-job matching engine with NLP, skill gap detection, and career clustering"
+authors = [{ name = "Jash Shah", email = "jshah67@stevens.edu" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["nlp", "resume", "job-matching", "machine-learning", "streamlit", "career"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jash-stack/AI-Resume-Matcher-2025-Edition"
+"Live Demo" = "https://ai-resume-matcher.streamlit.app"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
