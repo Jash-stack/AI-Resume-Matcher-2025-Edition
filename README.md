@@ -65,5 +65,5 @@ Languages & Frameworks: Python, Streamlit, Flask
 
 📬 Contact
 For questions or collaboration:
-📧 jshah67@stevens.edu
+📧 jbs051814@gmail.com
 
